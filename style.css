@@ -3,6 +3,11 @@
   src: url(./fonts/Norse.otf);
 }
 
+@font-face {
+  font-family: roboto;
+  src: url(./fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -86,4 +91,21 @@ h1 {
 
 .side-img > p > a:hover {
   color: #0066ff;
+}
+
+.main {
+  flex: 1;
+  background-color: #f9fafb;
+}
+
+.inspirational-message {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1.7rem;
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+  margin-top: 10%;
+  margin-left: 75px;
+  width: 40%;
 }
