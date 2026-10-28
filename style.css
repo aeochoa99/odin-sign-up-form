@@ -109,7 +109,7 @@ h1 {
   font-family: roboto, sans-serif;
   font-weight: 500;
   margin-top: 10%;
-  margin-left: 75px;
+  padding-left: 75px;
   width: 40%;
 }
 
@@ -151,4 +151,42 @@ input {
 h2 {
   font-family: roboto, sans-serif;
   font-size: 1.8rem;
+}
+
+.account-creation {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-left: 75px;
+}
+
+button {
+  align-self: flex-start;
+  font-size: 1.4rem;
+  background-color: #596D48;
+  font-family: roboto, sans-serif;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 45px 8px 45px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #4c5d3e;
+}
+
+.account-creation > p {
+  font-family: roboto, sans-serif;
+  font-size: 1.2rem;
+}
+
+.account-creation > p > a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #596D48;
+}
+
+.account-creation > p > a:hover {
+  text-decoration: underline;
 }
