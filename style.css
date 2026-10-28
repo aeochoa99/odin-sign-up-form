@@ -1,3 +1,8 @@
+@font-face {
+  font-family: norse;
+  src: url(./fonts/Norse.otf);
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -9,6 +14,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
 }
 
 img, picture, video, canvas, svg {
@@ -30,4 +36,54 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
+}
+
+.container {
+  display: flex;
+}
+
+.side-img {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 25%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  background-color: #00000073;
+  color: #ffffff;
+  margin-top: 35%;
+  padding: 15px;
+}
+
+.logo > img {
+  height: 150px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: norse, sans-serif;
+  font-size: 6rem;
+}
+
+.side-img > p {
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  color: #ffffff;
+}
+
+.side-img > p > a {
+  color: #ffffff;
+}
+
+.side-img > p > a:hover {
+  color: #0066ff;
 }
