@@ -94,6 +94,9 @@ h1 {
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
   flex: 1;
   background-color: #f9fafb;
 }
@@ -108,4 +111,44 @@ h1 {
   margin-top: 10%;
   margin-left: 75px;
   width: 40%;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 40px 60px 75px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px 0 #999999;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.name, .contact-info,
+.password-container {
+  display: flex;
+  gap: 60px;
+}
+
+.first-name, .last-name,
+.email, .phone,
+.password, .confirm-password {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+}
+
+input {
+  height: 35px;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+}
+
+h2 {
+  font-family: roboto, sans-serif;
+  font-size: 1.8rem;
 }
