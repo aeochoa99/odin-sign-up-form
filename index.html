@@ -30,37 +30,37 @@
                 <form action="" id="sign-up">
                     <div class="name">
                         <div class="first-name">
-                            <label for="first-name">FIRST NAME</label>
-                            <input type="text" name="first-name" id="first-name">
+                            <label for="first-name">*FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name" required>
                         </div>
 
                         <div class="last-name">
-                            <label for="last-name">LAST NAME</label>
-                            <input type="text" name="last-name" id="last-name">
+                            <label for="last-name">*LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name" required>
                         </div>
                     </div>
 
                     <div class="contact-info">
                         <div class="email">
-                            <label for="email">EMAIL</label>
-                            <input type="email" name="email" id="email">
+                            <label for="email">*EMAIL</label>
+                            <input type="email" name="email" id="email" required>
                         </div>
 
                         <div class="phone">
-                            <label for="phone">PHONE NUMBER</label>
-                            <input type="tel" name="phone" id="phone">
+                            <label for="phone">*PHONE NUMBER</label>
+                            <input type="tel" name="phone" id="phone" required>
                         </div>
                     </div>
 
                     <div class="password-container">
                         <div class="password">
-                            <label for="password">PASSWORD</label>
-                            <input type="password" name="password" id="password">
+                            <label for="password">*PASSWORD</label>
+                            <input type="password" name="password" id="password" required minlength="8">
                         </div>
 
                         <div class="confirm-password">
-                            <label for="confirm-password">CONFIRM PASSWORD</label>
-                            <input type="password" name="confirm-password" id="confirm-password">
+                            <label for="confirm-password">*CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-password" required minlength="8">
                         </div>
                     </div>
                 </form>

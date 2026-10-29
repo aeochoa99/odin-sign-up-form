@@ -145,7 +145,21 @@ form {
 input {
   height: 35px;
   border: 1px solid #b3b3b3;
+  outline: none;
   border-radius: 5px;
+}
+
+input:focus {
+  border-color: #0047b3;
+}
+
+#password:user-invalid,
+#confirm-password:user-invalid,
+#first-name:user-invalid,
+#last-name:user-invalid,
+#email:user-invalid,
+#phone:user-invalid {
+  border-color: #e60000;
 }
 
 h2 {
